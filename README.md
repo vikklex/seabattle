@@ -1,1 +1,1 @@
-.
+https://vikklex.github.io/seabattle/seabattle/
