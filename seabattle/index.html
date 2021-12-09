@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,maximum-scale=1" />
+    <title>Морской бой</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="fleet-sidebar">
+        <h2>Расставьте ваши корабли</h2>
+        <ul class="fleet-list">
+          <li id="aerocarrier">Четырехпалубник</li>
+          <li id="submarine">Трехпалубник</li>
+          <li id="submarine2">Трехпалубник</li>
+          <li id="galeon">Двухпалубник</li>
+          <li id="galeon2">Двухпалубник</li>
+          <li id="galeon3">Двухпалубник</li>
+          <li id="boat">Однопалубник</li>
+          <li id="boat2">Однопалубник</li>
+          <li id="boat3">Однопалубник</li>
+          <li id="boat4">Однопалубник</li>
+        </ul>
+        <button id="rotate-button" data-direction="0">Повернуть корабль</button>
+        <button id="start-game" class="hidden">Начать игру</button>
+      </div>
+      <div class="container-for-container">
+        <div class="grid-container">
+          <h2>Ваш флот</h2>
+          <div class="grid human-player"></div>
+        </div>
+        <div class="grid-container">
+          <h2>Флот противника</h2>
+          <div class="grid computer-player"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
