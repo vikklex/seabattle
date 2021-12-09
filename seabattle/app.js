@@ -365,15 +365,15 @@ Game.commonData = {
   },
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Game);
+ __webpack_exports__["a"] = (Game);
 
 
-/***/ }),
-/* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+ }),
+
+ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__game__ = __webpack_require__(0);
+ var __WEBPACK_IMPORTED_MODULE_0__game__ = __webpack_require__(0);
 
 
 class Ship {
